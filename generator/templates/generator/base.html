@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI Content Generator - Create High-Quality Copy Instantly{% endblock %}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{% block meta_description %}Generate high-quality blog posts, product descriptions, and social media captions using advanced Large Language Models (LLMs) like OpenAI and Groq.{% endblock %}">
+    <meta name="keywords" content="AI Content Generator, Blog post writer, product descriptions, social media captions, Groq, OpenAI, Django AI app">
+    <meta name="author" content="AI Content Generator Team">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+    <!-- Custom Page Header Styles -->
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
